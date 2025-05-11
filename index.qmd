@@ -119,7 +119,7 @@ But it creates a new dictionary, which I prefer, and you can scale this method t
 
 ## The OR (`|`) operator
 
-![The text of the post reads: Do you need a clean way to merge two dictionaries in Python? Use the | operator (available since Python 3.9) Unlike other methods (like the .update method or unpacking), it offers a neat way to merge dictionaries. See below for a small example.](linkedin_dict_or.jpeg)
+<!-- ![The text of the post reads: Do you need a clean way to merge two dictionaries in Python? Use the | operator (available since Python 3.9) Unlike other methods (like the .update method or unpacking), it offers a neat way to merge dictionaries. See below for a small example.](linkedin_dict_or.jpeg) -->
 
 The OR operator is a weird sugar hybrid becuase although its _intended_ use is pure sugar...
 
@@ -128,7 +128,7 @@ result = dict_1 | dict_2
 print(result)
 ```
 
-The unique thing about the OR operator is that operators in Python are just methods in disguise.
+...the unique thing about the OR operator is that operators in Python are just methods in disguise.
 In the case of the OR operator, the method name is `__or__`.
 
 ```{python} 
